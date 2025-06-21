@@ -1,0 +1,52 @@
+.blogprops_div{
+	width:356px;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.blogprops_div img{
+	width: 360px;
+}
+
+.blog_text{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 90px;
+}
+
+.hour{
+	color: rgb(19, 224, 224);
+	font-size: 22px;
+}
+
+.continu:hover,
+.rangi:hover,
+.hour:hover{
+	color: rgb(25, 186, 186);
+	cursor: pointer;
+}
+
+.brook{
+	font-size: 15px;
+	margin-top: -15px;
+	color: rgb(182, 176, 176);
+}
+
+.rangi{
+		color: rgb(19, 224, 224);
+}
+
+.blogprops_text{
+	font-size: 17px;
+	color: rgb(88, 86, 86);
+	line-height: 25px;
+}
+
+.continu{
+			color: rgb(19, 224, 224);
+			font-size: 18px;
+}
+
+.cardd{
+	margin-left: 70px;
+}
