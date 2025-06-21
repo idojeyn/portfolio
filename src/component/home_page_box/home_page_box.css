@@ -1,0 +1,27 @@
+.number-box {
+    position: relative;
+}
+
+.number-box .number {
+    font-size: 8rem;
+    position: absolute;
+    z-index: -1;
+    top: -4rem;
+    left: -3rem;
+    font-weight: 900;
+    color: #f2f4f5;
+}
+
+.text-primary1{
+    color: #32dbc6 !important;
+}
+
+.box{
+    height: 550px;
+    padding: 100px 0 0;
+    font-size: 1.1rem;
+}
+
+.list-unstyled li{
+    padding: 10px 0;
+}
