@@ -1,68 +1,37 @@
 import './work_page.css'
 
+
+
+const WorkProps = (props) => {
+  return (
+    <div className="col-4 pb-3">
+      <div className="media-1">
+        <img src={props.img} alt="Img" className="img-fluid" />
+        <div className="media-1-content">
+          <h2>{props.name}</h2>
+          <span className="category">{props.span}</span>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+
 const WorkPage = () => {
   return (
-    <div className='box1'>
+    <div id='Work' className='box1'>
       <div className="container1">
         <div className="text py-3">
           <h1 className='bolder'>Our Works</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, itaque neque, delectus odio iure explicabo.</p>
         </div>
         <div className="row m-3">
-          <div className="col-4 pb-3">
-            <div className="media-1">
-              <img src="/images/img_1.jpg.webp" alt="Img" className="img-fluid" />
-              <div className="media-1-content">
-                <h2>Bonzai Tree</h2>
-                <span className="category">Web Application</span>
-              </div>
-            </div>
-          </div>
-          <div className="col-4 pb-3">
-            <div className="media-1">
-              <img src="/images/img_2.jpg.webp" alt="Img" className="img-fluid" />
-              <div className="media-1-content">
-                <h2>Smile Woman</h2>
-                <span className="category">Web Application</span>
-              </div>
-            </div>
-          </div>
-          <div className="col-4 pb-3">
-            <div className="media-1">
-              <img src="/images/img_3.jpg.webp" alt="Img" className="img-fluid" />
-              <div className="media-1-content">
-                <h2>Fruit</h2>
-                <span className="category">Web Application</span>
-              </div>
-            </div>
-          </div>
-          <div className="col-4 pb-3">
-            <div className="media-1">
-              <img src="/images/img_4.jpg.webp" alt="Img" className="img-fluid" />
-              <div className="media-1-content">
-                <h2>Bonzai Tree</h2>
-                <span className="category">Web Application</span>
-              </div>
-            </div>
-          </div>
-          <div className="col-4 pb-3">
-            <div className="media-1">
-              <img src="/images/img_5.jpg.webp" alt="Img" className="img-fluid" />
-              <div className="media-1-content">
-                <h2>Bonzai Tree</h2>
-                <span className="category">Web Application</span>
-              </div>
-            </div>
-          </div>
-          <div className="col-4 pb-3">
-            <div className="media-1">
-              <img src="/images/img_6.jpg.webp" alt="Img" className="img-fluid" />
-              <div className="media-1-content">
-                <h2>Bonzai Tree</h2>
-                <span className="category">Web Application</span>
-              </div>
-            </div>
-          </div>
+          <WorkProps img="/images/img_1.jpg.webp" name='Bonzai Tree' span='WEB APPLICATION'/>
+          <WorkProps img="/images/img_2.jpg.webp" name='Simple Woman' span='BRANDING'/>
+          <WorkProps img="/images/img_3.jpg.webp" name='Fruits' span='WEBSITE'/>
+          <WorkProps img="/images/img_4.jpg.webp" name='Design Material' span='WEB APPLICATION'/>
+          <WorkProps img="/images/img_5.jpg.webp" name='Handy Food' span='BRANDING'/>
+          <WorkProps img="/images/img_6.jpg.webp" name='Cat With Cup' span='WEBSITE'/>
         </div>
       </div>
       <div className="clr"></div>

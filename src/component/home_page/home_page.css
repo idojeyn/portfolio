@@ -1,11 +1,12 @@
 .img {
     background: url(../../../public/images/hero_1.jpg.webp);
-    height: 600px;
+    height: 750px;
     width: 100%;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     color: #fff;
+    font-size: 1.5rem;
     text-align: center;
     position: relative;
 }
@@ -21,7 +22,7 @@
 }
 
 .img h1{
-    padding: 180px 0 0;
+    padding: 280px 0 0;
 }
 
 .btn:not(:disabled):not(.disabled) {
@@ -40,4 +41,32 @@
     color: #212529;
     background-color: #32dbc6 !important;
     border-color: #32dbc6 !important;
+}
+
+.number-box {
+    position: relative;
+}
+
+.number-box .number {
+    font-size: 8rem;
+    position: absolute;
+    z-index: -1;
+    top: -4rem;
+    left: -3rem;
+    font-weight: 900;
+    color: #f2f4f5;
+}
+
+.text-primary1{
+    color: #32dbc6 !important;
+}
+
+.box{
+    height: 550px;
+    padding: 100px 0 0;
+    font-size: 1.1rem;
+}
+
+.list-unstyled li{
+    padding: 10px 0;
 }

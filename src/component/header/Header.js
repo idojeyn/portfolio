@@ -2,7 +2,7 @@ import './Header.css'
 
 const Header = () => {
   return (
-    <div>
+    <div className='cont'>
       <div className='nav1'>
         <div className="container">
           <div className="phone">
@@ -20,30 +20,30 @@ const Header = () => {
       <header className='navbar '>
         <div className="container">
           <h2><a href="index.html" className='logo'>Create <span>.</span></a></h2>
-        <ul className="nav justify-content-end">
-          <li className="nav-item">
-            <a className="nav-link" href="#home">Home</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#Work">Work</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#Services">Services</a>
-          </li>
-          <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#index" role="button" aria-expanded="false">About</a>
-            <ul className="dropdown-menu">
-              <li><a className="dropdown-item" href="#index">Specialts</a></li>
-              <li><a className="dropdown-item" href="#index">Our team</a></li>
-            </ul>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link " href="#Blok">Blok</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link " href='#Contact'>Contact</a>
-          </li>
-        </ul>
+          <ul className="nav justify-content-end">
+            <li className="nav-item">
+              <a className="nav-link" href="#home">Home</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#Work">Work</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#Services">Services</a>
+            </li>
+            <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="a" role="button" aria-expanded="false">About</a>
+              <ul className="dropdown-menu">
+                <li><a className="dropdown-item" href="#about">About</a></li>
+                <li><a className="dropdown-item" href="#ourteam">Our team</a></li>
+              </ul>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link " href="#Blok">Blok</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link " href='#Contact'>Contact</a>
+            </li>
+          </ul>
         </div>
       </header>
       <div className="clr"></div>

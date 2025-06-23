@@ -20,14 +20,14 @@
 .media-1 {
   position: relative;
   display: block;
-  overflow: hidden;
+
 }
 
 .media-1:after {
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0, 0, 0, 0.6); 
+  background: rgba(0, 0, 0, 0.8); 
   transition: 0.3s all ease;
   opacity: 0;
   visibility: hidden;

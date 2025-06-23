@@ -1,17 +1,18 @@
 .blogprops_div{
-	width:356px;
-	display: inline-block;
-	margin-left: 30px;
+
+}
+
+.padd{
+	padding: 100px 0;
 }
 
 .blogprops_div img{
-	width: 360px;
+	width: 350px;
 }
 
 .blog_text{
 	text-align: center;
 	font-size: 50px;
-	margin-top: 90px;
 }
 
 .hour{
@@ -28,12 +29,11 @@
 
 .brook{
 	font-size: 15px;
-	margin-top: -15px;
 	color: rgb(182, 176, 176);
 }
 
 .rangi{
-		color: rgb(19, 224, 224);
+	color: rgb(19, 224, 224);
 }
 
 .blogprops_text{
@@ -45,8 +45,4 @@
 .continu{
 			color: rgb(19, 224, 224);
 			font-size: 18px;
-}
-
-.cardd{
-	margin-left: 70px;
 }

@@ -1,0 +1,83 @@
+.aboutus {
+	font-size: 50px;
+}
+
+.aboutus_text {
+	line-height: 30px;
+	font-size: 18px;
+	color: rgb(93, 92, 92);
+}
+
+.aboutus_containerr_div {
+	padding: 100px 0;
+}
+
+.ikonkali_div {
+	float: left;
+	color: rgb(93, 92, 92);
+	margin-top: 40px;
+}
+
+.ikonkali_div i {
+	font-size: 40px;
+}
+
+.ikonkali_div a {
+	color: #32dbc6;
+	font-size: 17px;
+}
+
+.nomi {
+	font-size: 20px;
+}
+
+.nomi_text {
+	font-size: 18px;
+}
+
+.About_picture img {
+	float: right;
+	height: 430px;
+	width: 450px;
+	background-position: center;
+	background-size: cover;
+	border-radius: 7px;
+}
+
+.ourteam {
+	font-size: 50px;
+	text-align: center;
+}
+
+.ourteamprops_div {
+	text-align: center;
+	font-size: 17px;
+	color: rgb(100, 99, 99);
+}
+
+.ourteamprops_div img {
+	border-radius: 50%;
+	height: 160px;
+}
+
+.ourteamprops_div_name {
+	font-size: 20px;
+	font-weight: 500;
+	padding-top: 30px;
+	color: black;
+}
+
+.ourteamprops_div_work {
+	font-size: 16px;
+	color: rgb(181, 178, 178);
+}
+
+.iconca_div i {
+	margin: 7px;
+	font-size: 25px
+}
+
+.iconca_div i:hover {
+	color: black;
+	cursor: pointer;
+}

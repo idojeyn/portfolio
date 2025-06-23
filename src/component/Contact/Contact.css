@@ -1,0 +1,89 @@
+.bagroundi_contact {
+	background-color: #f4f4f4;
+	padding: 100px 0;
+}
+
+.contactus {
+	text-align: center;
+	font-size: 50px;
+}
+
+
+.contactform {
+	background-color: white;
+	padding: 48px;
+}
+
+.contact_form_text {
+	font-size: 26px;
+    margin: 0 0 48px;
+}
+
+.contactform .name{
+	display: flex;
+	justify-content: space-between;
+}
+
+.contactform .row{
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+
+
+input {
+	height: 35px;
+	border-radius: 30px;
+	outline: 1px solid rgb(156, 154, 154);
+	border: none;
+	padding-left: 10px;
+}
+
+input:hover {
+	outline: 1px solid aqua;
+
+}
+
+
+label {
+	font-size: 20px;
+}
+
+.textara {
+	border-radius: 20px;
+	height: 170px;
+	width: 100%;
+	padding-left: 10px;
+	border: none;
+	outline: 1px solid rgb(156, 154, 154);
+}
+
+.sendmessage {
+	background-color: rgb(26, 219, 219);
+	border-radius: 25px;
+	border: none;
+	padding: 18px 30px;
+	color: white;
+	margin-top: 15px;
+}
+
+.sendmessage:hover {
+	background-color: rgb(17, 175, 175);
+	cursor: pointer;
+}
+
+.joylashuv {
+	background-color: white;
+	font-size: 16px;
+	height: 300px;
+	padding: 24px;
+}
+
+
+.joylashuv h3 {
+	color: rgb(79, 78, 78);
+}
+
+.raqam_rangi {
+	color: rgb(29, 235, 235);
+}

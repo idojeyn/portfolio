@@ -2,7 +2,7 @@ import './Blog.css'
 
 const Blogprops = (props) => {
 	return (
-		<div className='blogprops_div'>
+		<div className='blogprops_div col-4 p-3'>
 			<img src={props.image} alt="" />
 			<p className='hour'>Create Beautiful Website In Less Than An Hour</p>
 			<p className='brook'>Ham Brook • Jan 18, 2019 • <span className='rangi'>News</span></p>
@@ -14,9 +14,9 @@ const Blogprops = (props) => {
 
 const Blog = () => {
 	return (
-		<div>
+		<div id='Blok' className='container padd'>
 			<p className='blog_text'>Blog</p>
-			<div className='cardd'>
+			<div className='cardd row'>
 			<Blogprops image='/images/img_1.jpg.webp' />
 			<Blogprops image='/images/img_2.jpg.webp' />
 			<Blogprops image='/images/img_1.jpg.webp' />
