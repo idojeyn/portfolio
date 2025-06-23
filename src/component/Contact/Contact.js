@@ -26,7 +26,6 @@ const Contact = () => {
 							</label>
 						</div>
 						<button className='sendmessage'>SEND MESSAGE</button>
-
 					</div>
 					<div className='joylashuv col-4 m-3 '>
 						<h5>Address</h5>

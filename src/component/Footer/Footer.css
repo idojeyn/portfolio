@@ -1,115 +1,62 @@
-.footer_lets{
+.footer_lets {
 	background-color: rgb(35, 191, 191);
 	color: white;
 	text-align: center;
 	height: 140px;
 	font-size: 40px;
 	cursor: pointer;
-}              
+}
 
-.footer_lets p{
-	margin-top: 0px;
+.footer_lets p {
 	padding-top: 40px;
 }
 
-.footer_footer{
+.footer_footer {
 	background-color: #333;
-	height: 520px;
-	padding-top: 120px;
-	padding-left: 120px;
+	height: 500px;
 	color: white;
-}
-
-.footer1-div{
-	width: 330px;
-display: inline-block;
-position: relative;
-top: -45px;
-}
-
-.footer1-div p{
-	color: rgb(144, 143, 143);
+	padding: 100px 0;
 	font-size: 18px;
-		line-height: 28px;
 }
-
-.footer2-div{
-	display: inline-block;
-	margin-left: 90px;
+.footer_footer p{
+	color: #807f7f;
 }
-
-.footer2-div p{
-		color: rgb(144, 143, 143);
-	font-size: 18px;
-		line-height: 28px;
+.footer_footer p:hover{
+	color: #fff;
+	cursor: pointer;
 }
-
-.footer2-div p:hover{
-	color: white;
+.footer_footer i{
+	color: #807f7f;
+	padding: 10px;
+}
+.footer_footer i:hover{
+    color: #fff;
 	cursor: pointer;
 }
 
-.footer3-div{
-	display: inline-block;
-	margin-left: 100px;
-	position: relative;
-	top: -140px;
-}
-
-.footer3-div i{
-	background-color:#333;
-	color: rgb(206, 200, 200);
-	font-size: 20px;
-	padding-left: 15px;
-}
-
-.footer3-div i:hover{
-		color: white;
-			background-color:#333;
-			cursor: pointer;
-}
-
-.footer4-div{
-	display: inline-block;
-	margin-left: 100px;
-	position: relative;
-	top: -120px;
-}
-
-.email_footer{
+.email_footer {
 	height: 40px;
-	width: 240px;
 	background-color: #333;
-	padding-left: 25px;
 	color: white;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
 }
 
-.send{
+.send {
 	background-color: rgb(10, 208, 208);
-	border: none;
+	border:none;
 	height: 42px;
-	padding: 0px 20px;
+	padding: 0px 18px;
 	border-bottom-right-radius: 25px;
 	border-top-right-radius: 25px;
-	position: relative;
-	left: -72px;
-	cursor: pointer;
 	color: white;
 }
 
-.send:hover{
+.send:hover {
 	background-color: rgb(15, 167, 167);
 }
 
-.footer_hr{
-	width: 92%;
-	margin-left: -10px;
-	margin-top: 40px;
-	background-color: rgb(77, 77, 79);
-	height: 1px;
-}
-
-.ortaga{
+.ortaga {
 	text-align: center;
 	font-size: 15px;
 	color: #807f7f;

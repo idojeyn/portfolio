@@ -1,48 +1,44 @@
-.blogprops_div{
-
-}
-
-.padd{
+.padd {
 	padding: 100px 0;
 }
 
-.blogprops_div img{
+.blogprops_div img {
 	width: 350px;
 }
 
-.blog_text{
+.blog_text {
 	text-align: center;
 	font-size: 50px;
 }
 
-.hour{
+.hour {
 	color: rgb(19, 224, 224);
 	font-size: 22px;
 }
 
 .continu:hover,
 .rangi:hover,
-.hour:hover{
+.hour:hover {
 	color: rgb(25, 186, 186);
 	cursor: pointer;
 }
 
-.brook{
+.brook {
 	font-size: 15px;
 	color: rgb(182, 176, 176);
 }
 
-.rangi{
+.rangi {
 	color: rgb(19, 224, 224);
 }
 
-.blogprops_text{
+.blogprops_text {
 	font-size: 17px;
 	color: rgb(88, 86, 86);
 	line-height: 25px;
 }
 
-.continu{
-			color: rgb(19, 224, 224);
-			font-size: 18px;
+.continu {
+	color: rgb(19, 224, 224);
+	font-size: 18px;
 }

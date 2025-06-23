@@ -8,7 +8,6 @@
 	font-size: 50px;
 }
 
-
 .contactform {
 	background-color: white;
 	padding: 48px;
@@ -16,20 +15,19 @@
 
 .contact_form_text {
 	font-size: 26px;
-    margin: 0 0 48px;
+	margin: 0 0 48px;
 }
 
-.contactform .name{
+.contactform .name {
 	display: flex;
 	justify-content: space-between;
 }
 
-.contactform .row{
+.contactform .row {
 	display: flex;
 	justify-content: center;
 	gap: 1rem;
 }
-
 
 input {
 	height: 35px;
@@ -41,7 +39,6 @@ input {
 
 input:hover {
 	outline: 1px solid aqua;
-
 }
 
 
