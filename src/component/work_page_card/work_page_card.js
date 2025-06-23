@@ -13,7 +13,7 @@ const CardProps = (props) => {
 
 const WorkPageCard = () => {
   const texts = [
-    "\"Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse adipisci facilis dignissimos doloribus architecto tempora necessitatibus sint maxime nihil veritatis.\" ",
+    "\"Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse adipisci facilis dignissimos doloribus architecto tempora necessitatibus sint maxime nihil.\" ",
     "\" Esse adipisci facilis dignissimos doloribus architecto tempora necessitatibus sint maxime nihil veritatis.\" ",
     "\"Error, nam aut aperiam provident est eos nostrum, necessitatibus hic, nemo repellendus corrupti aliquid alias vel impedit eligendi? In sit tenetur quasi?\" "
   ];
