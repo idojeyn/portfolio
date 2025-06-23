@@ -39,6 +39,7 @@
 	float: right;
 	height: 430px;
 	width: 450px;
+	object-fit: cover;
 	background-position: center;
 	background-size: cover;
 	border-radius: 7px;
@@ -80,4 +81,38 @@
 .iconca_div i:hover {
 	color: black;
 	cursor: pointer;
+}
+
+@media (max-width:360px) {
+
+	#about hr{
+        display: none;
+	}
+	.aboutus {
+		font-size: 30px;
+	}
+
+	.aboutus_text{
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	.nomi_text{
+		font-size: 12px;
+	}
+	.ourteam {
+		font-size: 30px;
+	}
+
+	.ikonkali_div a{
+	font-size: 14px;
+	}
+
+	.aboutus_containerr_div{
+		padding: 40px 0 0;
+	}
+
+	.ourteamprops_div p{
+        font-size: 12px;
+	}
 }

@@ -3,7 +3,7 @@ import './services_page.css'
 
 const ServicesProps = (props) => {
   return (
-      <div className="col-4 p-5">
+      <div className="col-lg-4 col-md-6 p-lg-5 my-2">
         <div className="unit-4 d-flex">
           <div className="px-3 text-primary1">
             <i className={props.icon}></i>

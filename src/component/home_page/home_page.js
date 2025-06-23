@@ -13,11 +13,11 @@ const HomePage = () => {
 
   const BoxProps = (props) => {
     return (
-      <div className="col-4 p-3">
-        <div className="p-3 number-box">
+      <div className="col-md-6 col-lg-4 p-lg-3">
+        <div className="p-lg-3 number-box">
           <div className="number">{props.number}</div>
           <h2 className="text-primary1">{props.name}</h2>
-          <p className='mb-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam optio consequatur aut doloribus voluptate quis sapiente adipisci sit ab tempora.</p>
+          <p className='mb-lg-4 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam optio consequatur aut doloribus voluptate quis sapiente adipisci sit ab tempora.</p>
           <ul className="list-unstyled ul-check primary">
             <li><i className="fas fa-check text-primary1 "></i> {props.p1}</li>
             <li><i className="fas fa-check text-primary1 "></i> {props.p2}</li>

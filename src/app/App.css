@@ -43,3 +43,7 @@ a{
 span{
     color: #32dbc6;
 }
+
+@media (max-width:360px) {
+    
+}

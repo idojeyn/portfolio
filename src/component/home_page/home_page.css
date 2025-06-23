@@ -70,3 +70,22 @@
 .list-unstyled li{
     padding: 10px 0;
 }
+@media (max-width:360px) {
+    .container {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .box{
+        padding: 20px 0 0;
+    }
+
+    .number-box .number{
+        font-size: 5rem;
+        top: -2rem;
+    }
+
+    .list-unstyled li{
+    padding: 2px 0;
+}
+}

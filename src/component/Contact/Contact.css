@@ -84,3 +84,25 @@ label {
 .raqam_rangi {
 	color: rgb(29, 235, 235);
 }
+
+@media (max-width:360px) {
+	.contactform .name{
+		display: block;
+	}
+
+	.contactform{
+		padding: 15px;
+	}
+
+	.bagroundi_contact{
+		padding: 20px 0;
+	}
+
+	.contactus{
+		font-size: 30px;
+	}
+
+	label{
+		font-size: 16px;
+	}
+}

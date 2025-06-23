@@ -4,10 +4,10 @@ import './work_page.css'
 
 const WorkProps = (props) => {
   return (
-    <div className="col-4 pb-3">
+    <div className="col-md-6 col-lg-4 pb-3">
       <div className="media-1">
-        <img src={props.img} alt="Img" className="img-fluid" />
-        <div className="media-1-content">
+        <img src={props.img} alt="Img" className="img-fluid mb-lg-0 mb-4" />
+        <div className="media-1-content img-fluid">
           <h2>{props.name}</h2>
           <span className="category">{props.span}</span>
         </div>
@@ -21,7 +21,7 @@ const WorkPage = () => {
   return (
     <div id='Work' className='box1'>
       <div className="container1">
-        <div className="text py-3">
+        <div className="text col-md-8 py-3">
           <h1 className='bolder'>Our Works</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, itaque neque, delectus odio iure explicabo.</p>
         </div>

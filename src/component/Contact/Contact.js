@@ -6,13 +6,13 @@ const Contact = () => {
 			<div className=" container">
 				<p className='contactus'>Contact Us</p>
 				<div className="row">
-					<div className='contactform col-7 m-3'>
+					<div className='contactform col-md-7 m-md-3 m-2'>
 						<p className='contact_form_text'>Contact Form</p>
 						<div className="row">
 							<div className="name">
-								<label className='col-5'>First Name
+								<label className='col-md-5'>First Name
 									<input type="text" placeholder='First Name' /></label>
-								<label className='col-5'>Last Name
+								<label className='col-md-5'>Last Name
 									<input type="text" placeholder='Last Name' /></label>
 							</div>
 							<label className='col-12' >Email
@@ -27,7 +27,7 @@ const Contact = () => {
 						</div>
 						<button className='sendmessage'>SEND MESSAGE</button>
 					</div>
-					<div className='joylashuv col-4 m-3 '>
+					<div className='joylashuv col-md-4 m-md-3 m-2'>
 						<h5>Address</h5>
 						<p>203 Fake St. Mountain View, San Francisco, California, USA</p>
 						<h5>Phone</h5>

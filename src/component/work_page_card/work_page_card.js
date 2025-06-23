@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 
 const CardProps = (props) => {
   return (
-    <div className="p-3 col-6">
+    <div className="p-3 col-lg-6">
       <p><i className={props.icon}></i> {props.name}</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.</p>
       <u>Read More</u>
@@ -32,12 +32,12 @@ const WorkPageCard = () => {
   };
   return (
     <div className='box1'>
-      <div className="container dark ">
+      <div className="container dark col-12 ">
         <div className="row align-items-center py-3">
-          <div className="col-6">
-            <img className='p-3' src="/images/about_1.jpg.webp" height={'450px'} alt="" />
+          <div className="col-lg-6">
+            <img className='p-lg-3 mb-lg-0 img-fluid' src="/images/about_1.jpg.webp" height={'450px'} alt="" />
           </div>
-          <div className="col-6 row">
+          <div className="col-lg-6 row">
             <CardProps icon="fas fa-umbrella-beach fa-2x" name='Strategy' />
             <CardProps icon="fas fa-paint-roller fa-2x" name='Art Direction' />
             <CardProps icon="fas fa-wrench fa-2x" name='Web Development' />

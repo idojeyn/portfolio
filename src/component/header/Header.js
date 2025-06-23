@@ -1,6 +1,8 @@
 import './Header.css'
+import React, { useState } from 'react';
 
 const Header = () => {
+  const [open, setOpen] = useState(false);
   return (
     <div className='cont'>
       <div className='nav1'>
@@ -21,29 +23,34 @@ const Header = () => {
         <div className="container">
           <h2><a href="index.html" className='logo'>Create <span>.</span></a></h2>
           <ul className="nav justify-content-end">
-            <li className="nav-item">
-              <a className="nav-link" href="#home">Home</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#Work">Work</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#Services">Services</a>
-            </li>
-            <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="a" role="button" aria-expanded="false">About</a>
-              <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="#about">About</a></li>
-                <li><a className="dropdown-item" href="#ourteam">Our team</a></li>
-              </ul>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link " href="#Blok">Blok</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link " href='#Contact'>Contact</a>
-            </li>
+            <div className={`sidebar ${open ? 'active' : ''}`}>
+              <li className="nav-item">
+                <a className="nav-link" href="#home">Home</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#Work">Work</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#Services">Services</a>
+              </li>
+              <li className="nav-item dropdown">
+                <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="a" role="button" aria-expanded="false">About</a>
+                <ul className="dropdown-menu">
+                  <li><a className="dropdown-item" href="#about">About</a></li>
+                  <li><a className="dropdown-item" href="#ourteam">Our team</a></li>
+                </ul>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link " href="#Blok">Blok</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link " href='#Contact'>Contact</a>
+              </li>
+            </div>
           </ul>
+          <div className="hamburger" onClick={() => setOpen(!open)}>
+            <i className="fa-solid fa-bars "></i>
+          </div>
         </div>
       </header>
       <div className="clr"></div>

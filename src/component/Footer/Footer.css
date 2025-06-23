@@ -62,3 +62,17 @@
 	color: #807f7f;
 	margin-top: 50px;
 }
+
+@media (max-width:360px) {
+	.footer_footer{
+		padding: 20px 0;
+	}
+
+	p{
+		margin: 0;
+	}
+
+	.footer_lets{
+		font-size: 30px;
+	}
+}
